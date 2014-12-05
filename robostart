@@ -1,0 +1,9 @@
+start
+
+startup-core=core-on
+main-startup=robo-on
+do-{startup-core,main-startup}
+if {legs-point==front} indinend shoot
+clean=fan-inverted,foward-until-bump,turn-on-bumb
+
+end
